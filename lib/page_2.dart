@@ -40,6 +40,11 @@ class _Page2State extends State<Page2> {
                 adSize: AdmobBannerSize.MEDIUM_RECTANGLE,
               ),
             ),
+            Text('Second baner'),
+            AdmobBanner(
+              adUnitId: getBannerAdUnitId(),
+              adSize: AdmobBannerSize.FULL_BANNER,
+            ),
           ],
         ),
       ),
